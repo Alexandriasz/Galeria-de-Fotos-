@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background:  #632917;
+    border-bottom: 16px solid  #632917;
+    color: #fff;
+    display: flex;
+    font-style: italic;
+    justify-content: center;
+    padding: 16px 0;
+    text-transform: uppercase;
+}
+
+header button {
+    margin-left: 16px;
+}
+
+form {
+    background: #c8d6e5;
+    padding: 20px 0;
+    text-align: center;
+    display: none;
+}
+
+form h2 {
+    margin-bottom: 16px;
+}
+
+input, button {
+    padding: 8px;
+}
+
+button {
+    background: #632917;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#btn-cancelar {
+    background: #ff0000;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    max-width: 25%;
+    list-style: none;
+    position: relative;
+    max-width: 280px;
+    overflow-y: hidden;
+}
+
+ul li img {
+    height: 180px;
+    width: 100%;
+}
+
+#rodape {
+    background-color: #632917;
+    padding-top: 50px;
+}
+
+#rodape h4 {
+    color: white;
+    font-weight: 700;
+}
+
+#rodape h5 {
+    color: white;
+}
+
+#rodape h6 {
+    color: white;
+    text-align: center;
+}
+
+#rodape ul {
+    list-style: none;
+}
+
+#rodape ul .links {
+    float: left;
+    margin: 0 12px;
+}
+
+.links2 a {
+    color:blue;
+    text-align: center
+
+}
+
+#rodape p {
+    color: white;
+}
+
+.espaço4 {
+    padding-bottom: 40px;
+}
+
+
+.overlay-link-img {
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+.overlay-link-img a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li:hover .overlay-link-img {
+    opacity: 1;   
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+    @media only screen and (min-width: 768px) {
+        body {
+          font-size: 16px; 
+          @media only screen and (max-width: 767px) {
+            body {
+              font-size: 14px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+    ul li {
+        margin: 0 auto;
+        max-width: 100%;
+        width: 90%;
+    }
+
+    ul li img {
+        width: 100%;
+        
+    }
+}
